@@ -20,8 +20,8 @@ function Demo() {
 export default function Page() {
   return (
     <div>
-      <div className="flex h-screen items-center justify-center">
-        <div className="w-[50%] overflow-hidden p-2">
+      <div className="items-center justify-center">
+        <div className="mx-auto w-[65%] overflow-hidden p-2">
           <Demo />
         </div>
       </div>
